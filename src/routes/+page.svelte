@@ -41,7 +41,7 @@
         <a href="#features" class="hover:text-accent">Features</a>
         <a href="#how-it-works" class="hover:text-accent">How it Works</a>
         <a href="/faq" class="hover:text-accent">FAQ</a>
-        <a href="#" class="bg-primary hover:bg-primary-dark px-6 py-2 rounded-lg">
+        <a href="https://estatechainsol.github.io/estatechain.platform" target="_blank" class="bg-primary hover:bg-primary-dark px-6 py-2 rounded-lg">
           View Demo
         </a>
         <button class="bg-accent hover:bg-accent-dark px-6 py-2 rounded-lg">
@@ -52,7 +52,7 @@
 
     <div class="max-w-4xl">
       <div class="mb-6 inline-block px-4 py-1 bg-primary/20 rounded-full text-primary text-sm font-medium">
-        Platform Coming Soon • <a href="#" class="font-bold hover:text-primary-dark">Try Demo</a>
+        Platform Coming Soon • <a href="https://estatechainsol.github.io/estatechain.platform" target="_blank" class="font-bold hover:text-primary-dark">Try Demo</a>
       </div>
       <h1 class="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-accent to-primary">
         Tokenized Real Estate Investment
@@ -65,7 +65,7 @@
         <button class="bg-accent hover:bg-accent-dark px-8 py-4 rounded-lg text-lg">
           Get Notified
         </button>
-        <a href="#" class="bg-primary hover:bg-primary-dark px-8 py-4 rounded-lg text-lg">
+        <a href="https://estatechainsol.github.io/estatechain.platform" target="_blank" class="bg-primary hover:bg-primary-dark px-8 py-4 rounded-lg text-lg">
           View Demo
         </a>
         <button class="border border-accent hover:bg-accent/10 px-8 py-4 rounded-lg text-lg">
@@ -140,7 +140,7 @@
         Try our demo platform to explore the future of tokenized real estate on Solana, and sign up to be notified when the full platform launches.
       </p>
       <div class="flex justify-center space-x-4">
-        <a href="#" class="bg-primary hover:bg-primary-dark px-8 py-4 rounded-lg text-lg">
+        <a href="https://estatechainsol.github.io/estatechain.platform" target="_blank" class="bg-primary hover:bg-primary-dark px-8 py-4 rounded-lg text-lg">
           View Demo
         </a>
         <button class="bg-accent hover:bg-accent-dark px-8 py-4 rounded-lg text-lg">
