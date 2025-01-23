@@ -17,10 +17,6 @@
       answer: 'Rental income is automatically distributed to token holders through smart contracts. The distributions are made in USDC directly to your Solana wallet, proportional to your ownership percentage.'
     },
     {
-      question: 'What type of properties will be available?',
-      answer: 'At launch, we will focus on premium residential and commercial properties in prime locations. Our team carefully vets each property to ensure it meets our strict investment criteria for quality and potential returns.'
-    },
-    {
       question: 'How can I sell my investment?',
       answer: 'Our platform will feature an integrated DEX where you can trade your property tokens 24/7. This provides instant liquidity, allowing you to exit your investment whenever you choose.'
     },
