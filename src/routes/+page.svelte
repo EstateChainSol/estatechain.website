@@ -188,7 +188,7 @@
 					View Demo
 				</a>
 				<a
-					href="https://estatechainsol.github.io/estatechain.website/docs"
+					href="https://estatechainsol.github.io/estatechain.docs"
 					class="bg-accent hover:bg-accent-dark px-8 py-4 rounded-lg text-lg"
 				>
 					Documentation
