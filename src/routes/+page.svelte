@@ -48,7 +48,7 @@
 			<div class="space-x-8">
 				<a href="#features" class="hover:text-accent">Features</a>
 				<a href="#how-it-works" class="hover:text-accent">How it Works</a>
-				<a href="/faq" class="hover:text-accent">FAQ</a>
+				<a href="/estatechain.website/faq" class="hover:text-accent">FAQ</a>
 				<a
 					href="https://estatechainsol.github.io/estatechain.platform"
 					target="_blank"
@@ -82,7 +82,7 @@
 			</p>
 			<div class="flex space-x-4">
 				<a
-					href="https://estatechainsol.github.io/estatechain.docs"
+					href="https://estatechainsol.github.io/estatechain.website/docs"
 					class="bg-accent hover:bg-accent-dark px-8 py-4 rounded-lg text-lg"
 				>
 					Documentation
@@ -187,7 +187,10 @@
 				>
 					View Demo
 				</a>
-				<a href="/docs" class="bg-accent hover:bg-accent-dark px-8 py-4 rounded-lg text-lg">
+				<a
+					href="https://estatechainsol.github.io/estatechain.website/docs"
+					class="bg-accent hover:bg-accent-dark px-8 py-4 rounded-lg text-lg"
+				>
 					Documentation
 				</a>
 			</div>
@@ -207,7 +210,7 @@
 					<ul class="space-y-2 text-gray-400">
 						<li><a href="#features" class="hover:text-accent">Features</a></li>
 						<li><a href="#how-it-works" class="hover:text-accent">How it Works</a></li>
-						<li><a href="/faq" class="hover:text-accent">FAQ</a></li>
+						<li><a href="/estatechain.website/faq" class="hover:text-accent">FAQ</a></li>
 					</ul>
 				</div>
 				<div>
