@@ -34,6 +34,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>EstateChain - Tokenized Real Estate on Solana</title>
+</svelte:head>
+
 <div
 	class="min-h-screen bg-gradient-to-b from-secondary to-secondary-dark text-white overflow-x-hidden"
 >

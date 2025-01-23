@@ -31,6 +31,10 @@
   ];
 </script>
 
+<svelte:head>
+  <title>FAQ - EstateChain</title>
+</svelte:head>
+
 <div class="min-h-screen bg-gradient-to-b from-secondary to-secondary-dark text-white py-20">
   <div class="container mx-auto px-4">
     <h1 class="text-5xl font-bold mb-12 text-center">Frequently Asked Questions</h1>
