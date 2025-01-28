@@ -44,21 +44,42 @@
 	<!-- Hero Section -->
 	<header class="container mx-auto px-4 pt-8 pb-20">
 		<nav class="flex justify-between items-center mb-16">
-			<div class="text-2xl font-bold text-blue-400">EstateChain</div>
-			<div class="space-x-8">
-				<a href="#features" class="hover:text-blue-300 transition-colors">Features</a>
-				<a href="#how-it-works" class="hover:text-blue-300 transition-colors">How it Works</a>
-				<a href="/estatechain.website/faq" class="hover:text-blue-300 transition-colors">FAQ</a>
+			<div class="text-2xl font-bold text-blue-400 hover:text-blue-300 transition-colors">EstateChain</div>
+			<div class="space-x-6">
+				<a href="#features" class="inline-flex items-center px-4 py-2 hover:text-blue-300 transition-all duration-300 font-medium">
+					Features
+					<svg class="w-4 h-4 ml-1 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+					</svg>
+				</a>
+				<a href="#how-it-works" class="inline-flex items-center px-4 py-2 hover:text-blue-300 transition-all duration-300 font-medium">
+					How it Works
+					<svg class="w-4 h-4 ml-1 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+					</svg>
+				</a>
+				<a href="/estatechain.website/faq" class="inline-flex items-center px-4 py-2 hover:text-blue-300 transition-all duration-300 font-medium">
+					FAQ
+					<svg class="w-4 h-4 ml-1 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+					</svg>
+				</a>
 				<a
 					href="https://estatechainsol.github.io/estatechain.platform"
 					target="_blank"
-					class="bg-blue-600 hover:bg-blue-500 px-6 py-2 rounded-xl transition-all duration-300 shadow-lg hover:shadow-blue-500/25 border border-blue-500/20 hover:border-blue-400/50 transform hover:-translate-y-0.5"
+					class="bg-blue-600 hover:bg-blue-500 px-6 py-2 rounded-xl transition-all duration-300 shadow-lg hover:shadow-blue-500/25 border border-blue-500/20 hover:border-blue-400/50 transform hover:-translate-y-0.5 font-medium inline-flex items-center group"
 				>
 					View Demo
+					<span class="inline-block transition-transform duration-300 group-hover:translate-x-1 ml-2">→</span>
 				</a>
-				<button class="bg-indigo-600 hover:bg-indigo-500 px-6 py-2 rounded-xl transition-all duration-300 shadow-lg hover:shadow-indigo-500/25 border border-indigo-500/20 hover:border-indigo-400/50 transform hover:-translate-y-0.5">
-					Coming Soon
-				</button>
+				<a
+					href="https://estatechainsol.github.io/estatechain.docs"
+					target="_blank"
+					class="bg-indigo-600 hover:bg-indigo-500 px-6 py-2 rounded-xl transition-all duration-300 shadow-lg hover:shadow-indigo-500/25 border border-indigo-500/20 hover:border-indigo-400/50 transform hover:-translate-y-0.5 font-medium inline-flex items-center group"
+				>
+					Documentation
+					<span class="inline-block transition-transform duration-300 group-hover:translate-x-1 ml-2">→</span>
+				</a>
 			</div>
 		</nav>
 
