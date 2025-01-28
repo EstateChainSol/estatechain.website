@@ -27,6 +27,26 @@
     {
       question: 'Which wallets are supported?',
       answer: 'At launch, we will support all major Solana wallets including Phantom, Solflare, and other popular options. We recommend Phantom wallet for the best user experience.'
+    },
+    {
+      question: 'What types of properties are available for investment?',
+      answer: 'Our platform offers a diverse range of properties including residential homes, apartment complexes, commercial offices, retail spaces, and vacation rentals. Each property is carefully vetted to ensure quality investment opportunities.'
+    },
+    {
+      question: 'How are property values determined?',
+      answer: 'Property values are determined through professional third-party appraisals, market analysis, and regular revaluations. We ensure transparent and accurate pricing through multiple independent sources.'
+    },
+    {
+      question: 'What are the fees involved?',
+      answer: 'Our platform charges minimal fees to ensure maximum returns for investors. This includes a small transaction fee for buying/selling tokens and a management fee for property maintenance and platform operations. All fees are transparently disclosed before investment.'
+    },
+    {
+      question: 'How is property maintenance handled?',
+      answer: 'Professional property management companies handle all aspects of maintenance, tenant relations, and day-to-day operations. These companies are selected through our DAO governance system and are regularly evaluated for performance.'
+    },
+    {
+      question: 'What happens if I want to sell my entire investment?',
+      answer: 'You can sell your entire investment at any time through our integrated DEX. The platform provides instant liquidity, allowing you to exit your position partially or completely whenever you choose.'
     }
   ];
 </script>
