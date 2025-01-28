@@ -55,16 +55,16 @@
   <title>FAQ - EstateChain</title>
 </svelte:head>
 
-<div class="min-h-screen bg-gradient-to-b from-secondary to-secondary-dark text-white py-20">
+<div class="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 text-slate-100 py-20">
   <div class="container mx-auto px-4">
-    <h1 class="text-5xl font-bold mb-12 text-center">Frequently Asked Questions</h1>
+    <h1 class="text-5xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-400">Frequently Asked Questions</h1>
     
     <div class="max-w-3xl mx-auto">
       <div class="space-y-8">
         {#each faqs as faq}
-          <div class="bg-black/30 p-8 rounded-2xl backdrop-blur-lg border border-accent/10">
-            <h2 class="text-2xl font-bold mb-4">{faq.question}</h2>
-            <p class="text-gray-300 leading-relaxed">{faq.answer}</p>
+          <div class="bg-slate-800/80 hover:bg-slate-800/90 p-8 rounded-2xl backdrop-blur-lg border border-blue-500/10 hover:border-blue-500/20 transition-all duration-300 shadow-lg">
+            <h2 class="text-2xl font-bold mb-4 text-blue-300">{faq.question}</h2>
+            <p class="text-slate-300 leading-relaxed">{faq.answer}</p>
           </div>
         {/each}
       </div>

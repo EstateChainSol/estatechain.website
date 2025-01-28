@@ -39,43 +39,43 @@
 </svelte:head>
 
 <div
-	class="min-h-screen bg-gradient-to-b from-secondary to-secondary-dark text-white overflow-x-hidden"
+	class="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 text-slate-100 overflow-x-hidden"
 >
 	<!-- Hero Section -->
 	<header class="container mx-auto px-4 pt-8 pb-20">
 		<nav class="flex justify-between items-center mb-16">
-			<div class="text-2xl font-bold text-accent">EstateChain</div>
+			<div class="text-2xl font-bold text-blue-400">EstateChain</div>
 			<div class="space-x-8">
-				<a href="#features" class="hover:text-accent">Features</a>
-				<a href="#how-it-works" class="hover:text-accent">How it Works</a>
-				<a href="/estatechain.website/faq" class="hover:text-accent">FAQ</a>
+				<a href="#features" class="hover:text-blue-300 transition-colors">Features</a>
+				<a href="#how-it-works" class="hover:text-blue-300 transition-colors">How it Works</a>
+				<a href="/estatechain.website/faq" class="hover:text-blue-300 transition-colors">FAQ</a>
 				<a
 					href="https://estatechainsol.github.io/estatechain.platform"
 					target="_blank"
-					class="bg-primary hover:bg-primary-dark px-6 py-2 rounded-lg"
+					class="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg transition-colors"
 				>
 					View Demo
 				</a>
-				<button class="bg-accent hover:bg-accent-dark px-6 py-2 rounded-lg"> Coming Soon </button>
+				<button class="bg-indigo-600 hover:bg-indigo-700 px-6 py-2 rounded-lg transition-colors"> Coming Soon </button>
 			</div>
 		</nav>
 
 		<div class="max-w-4xl">
 			<div
-				class="mb-6 inline-block px-4 py-1 bg-primary/20 rounded-full text-primary text-sm font-medium"
+				class="mb-6 inline-block px-4 py-1 bg-blue-600/20 rounded-full text-blue-400 text-sm font-medium"
 			>
 				Platform Coming Soon • <a
 					href="https://estatechainsol.github.io/estatechain.platform"
 					target="_blank"
-					class="font-bold hover:text-primary-dark">Try Demo</a
+					class="font-bold hover:text-blue-300 transition-colors">Try Demo</a
 				>
 			</div>
 			<h1
-				class="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-accent to-primary"
+				class="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-400"
 			>
 				Tokenized Real Estate Investment
 			</h1>
-			<p class="text-xl text-gray-300 mb-8">
+			<p class="text-xl text-slate-300 mb-8">
 				EstateChain is bringing real estate investment to the Solana blockchain. Stay tuned for the
 				launch of our platform featuring tokenization, smart contracts, and decentralized
 				technology.
@@ -83,14 +83,14 @@
 			<div class="flex space-x-4">
 				<a
 					href="https://estatechainsol.github.io/estatechain.docs"
-					class="bg-accent hover:bg-accent-dark px-8 py-4 rounded-lg text-lg"
+					class="bg-indigo-600 hover:bg-indigo-700 px-8 py-4 rounded-lg text-lg transition-colors"
 				>
 					Documentation
 				</a>
 				<a
 					href="https://estatechainsol.github.io/estatechain.platform"
 					target="_blank"
-					class="bg-primary hover:bg-primary-dark px-8 py-4 rounded-lg text-lg"
+					class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg text-lg transition-colors"
 				>
 					View Demo
 				</a>
@@ -99,13 +99,13 @@
 	</header>
 
 	<!-- Stats Section -->
-	<section class="py-20 bg-black/30">
+	<section class="py-20 bg-slate-900/50">
 		<div class="container mx-auto px-4">
 			<div class="grid grid-cols-4 gap-8">
 				{#each stats as stat}
 					<div class="text-center">
-						<div class="text-4xl font-bold text-accent mb-2">{stat.value}</div>
-						<div class="text-gray-400">{stat.label}</div>
+						<div class="text-4xl font-bold text-blue-400 mb-2">{stat.value}</div>
+						<div class="text-slate-400">{stat.label}</div>
 					</div>
 				{/each}
 			</div>
@@ -115,15 +115,15 @@
 	<!-- Features Section -->
 	<section id="features" class="py-20">
 		<div class="container mx-auto px-4">
-			<h2 class="text-4xl font-bold text-center mb-16">Planned Platform Features</h2>
+			<h2 class="text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-400">Planned Platform Features</h2>
 			<div class="grid grid-cols-2 gap-8">
 				{#each features as feature}
 					<div
-						class="bg-black/30 p-8 rounded-2xl backdrop-blur-lg border border-accent/10 hover:border-accent/30 transition-all"
+						class="bg-slate-800/80 hover:bg-slate-800/90 p-8 rounded-2xl backdrop-blur-lg border border-blue-500/10 hover:border-blue-500/20 transition-all duration-300 shadow-lg"
 					>
 						<div class="text-4xl mb-4">{feature.icon}</div>
-						<h3 class="text-2xl font-bold mb-4">{feature.title}</h3>
-						<p class="text-gray-400">{feature.description}</p>
+						<h3 class="text-2xl font-bold mb-4 text-blue-300">{feature.title}</h3>
+						<p class="text-slate-300">{feature.description}</p>
 					</div>
 				{/each}
 			</div>
@@ -131,36 +131,36 @@
 	</section>
 
 	<!-- How it Works -->
-	<section id="how-it-works" class="py-20 bg-black/30">
+	<section id="how-it-works" class="py-20 bg-slate-900/50">
 		<div class="container mx-auto px-4">
-			<h2 class="text-4xl font-bold text-center mb-16">How It Will Work</h2>
+			<h2 class="text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-400">How It Will Work</h2>
 			<div class="grid grid-cols-3 gap-8">
 				<div class="text-center">
 					<div
-						class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-2xl mx-auto mb-6"
+						class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-2xl mx-auto mb-6"
 					>
 						1
 					</div>
-					<h3 class="text-xl font-bold mb-4">Connect Solana Wallet</h3>
-					<p class="text-gray-400">Use Phantom, Solflare, or other Solana wallets</p>
+					<h3 class="text-xl font-bold mb-4 text-blue-300">Connect Solana Wallet</h3>
+					<p class="text-slate-300">Use Phantom, Solflare, or other Solana wallets</p>
 				</div>
 				<div class="text-center">
 					<div
-						class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-2xl mx-auto mb-6"
+						class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-2xl mx-auto mb-6"
 					>
 						2
 					</div>
-					<h3 class="text-xl font-bold mb-4">Select Properties</h3>
-					<p class="text-gray-400">Browse tokenized real estate opportunities</p>
+					<h3 class="text-xl font-bold mb-4 text-blue-300">Select Properties</h3>
+					<p class="text-slate-300">Browse tokenized real estate opportunities</p>
 				</div>
 				<div class="text-center">
 					<div
-						class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-2xl mx-auto mb-6"
+						class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-2xl mx-auto mb-6"
 					>
 						3
 					</div>
-					<h3 class="text-xl font-bold mb-4">Manage Portfolio</h3>
-					<p class="text-gray-400">Track investments and receive distributions</p>
+					<h3 class="text-xl font-bold mb-4 text-blue-300">Manage Portfolio</h3>
+					<p class="text-slate-300">Track investments and receive distributions</p>
 				</div>
 			</div>
 		</div>
@@ -170,12 +170,12 @@
 	<section class="py-20">
 		<div class="container mx-auto px-4 text-center">
 			<div
-				class="inline-block px-4 py-1 bg-primary/20 rounded-full text-primary text-sm font-medium mb-8"
+				class="inline-block px-4 py-1 bg-blue-600/20 rounded-full text-blue-400 text-sm font-medium mb-8"
 			>
 				Platform Under Development
 			</div>
-			<h2 class="text-4xl font-bold mb-8">Experience It Today</h2>
-			<p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
+			<h2 class="text-4xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-400">Experience It Today</h2>
+			<p class="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
 				Try our demo platform to explore the future of tokenized real estate on Solana, and read our
 				documentation to learn more about the technology.
 			</p>
@@ -183,13 +183,13 @@
 				<a
 					href="https://estatechainsol.github.io/estatechain.platform"
 					target="_blank"
-					class="bg-primary hover:bg-primary-dark px-8 py-4 rounded-lg text-lg"
+					class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg text-lg transition-colors"
 				>
 					View Demo
 				</a>
 				<a
 					href="https://estatechainsol.github.io/estatechain.docs"
-					class="bg-accent hover:bg-accent-dark px-8 py-4 rounded-lg text-lg"
+					class="bg-indigo-600 hover:bg-indigo-700 px-8 py-4 rounded-lg text-lg transition-colors"
 				>
 					Documentation
 				</a>
@@ -198,30 +198,30 @@
 	</section>
 
 	<!-- Footer -->
-	<footer class="py-12 bg-black/30">
+	<footer class="py-12 bg-slate-900/50">
 		<div class="container mx-auto px-4">
 			<div class="grid grid-cols-3 gap-8">
 				<div>
-					<div class="text-2xl font-bold text-accent mb-4">EstateChain</div>
-					<p class="text-gray-400">Real estate investment on Solana - Coming Soon</p>
+					<div class="text-2xl font-bold text-blue-400 mb-4">EstateChain</div>
+					<p class="text-slate-400">Real estate investment on Solana - Coming Soon</p>
 				</div>
 				<div>
-					<h4 class="font-bold mb-4">Platform</h4>
-					<ul class="space-y-2 text-gray-400">
-						<li><a href="#features" class="hover:text-accent">Features</a></li>
-						<li><a href="#how-it-works" class="hover:text-accent">How it Works</a></li>
-						<li><a href="/estatechain.website/faq" class="hover:text-accent">FAQ</a></li>
+					<h4 class="font-bold mb-4 text-slate-100">Platform</h4>
+					<ul class="space-y-2 text-slate-400">
+						<li><a href="#features" class="hover:text-blue-300 transition-colors">Features</a></li>
+						<li><a href="#how-it-works" class="hover:text-blue-300 transition-colors">How it Works</a></li>
+						<li><a href="/estatechain.website/faq" class="hover:text-blue-300 transition-colors">FAQ</a></li>
 					</ul>
 				</div>
 				<div>
-					<h4 class="font-bold mb-4">Connect</h4>
-					<ul class="space-y-2 text-gray-400">
+					<h4 class="font-bold mb-4 text-slate-100">Connect</h4>
+					<ul class="space-y-2 text-slate-400">
 						<li>
 							<a
 								href="https://twitter.com"
 								target="_blank"
 								rel="noopener noreferrer"
-								class="hover:text-accent">Twitter</a
+								class="hover:text-blue-300 transition-colors">Twitter</a
 							>
 						</li>
 						<li>
@@ -229,7 +229,7 @@
 								href="https://github.com/EstateChainSol/estatechain.platform"
 								target="_blank"
 								rel="noopener noreferrer"
-								class="hover:text-accent flex items-center"
+								class="hover:text-blue-300 transition-colors flex items-center"
 							>
 								GitHub
 								<svg
