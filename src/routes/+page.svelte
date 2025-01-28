@@ -52,11 +52,13 @@
 				<a
 					href="https://estatechainsol.github.io/estatechain.platform"
 					target="_blank"
-					class="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg transition-colors"
+					class="bg-blue-600 hover:bg-blue-500 px-6 py-2 rounded-xl transition-all duration-300 shadow-lg hover:shadow-blue-500/25 border border-blue-500/20 hover:border-blue-400/50 transform hover:-translate-y-0.5"
 				>
 					View Demo
 				</a>
-				<button class="bg-indigo-600 hover:bg-indigo-700 px-6 py-2 rounded-lg transition-colors"> Coming Soon </button>
+				<button class="bg-indigo-600 hover:bg-indigo-500 px-6 py-2 rounded-xl transition-all duration-300 shadow-lg hover:shadow-indigo-500/25 border border-indigo-500/20 hover:border-indigo-400/50 transform hover:-translate-y-0.5">
+					Coming Soon
+				</button>
 			</div>
 		</nav>
 
@@ -83,14 +85,14 @@
 			<div class="flex space-x-4">
 				<a
 					href="https://estatechainsol.github.io/estatechain.docs"
-					class="bg-indigo-600 hover:bg-indigo-700 px-8 py-4 rounded-lg text-lg transition-colors"
+					class="bg-indigo-600 hover:bg-indigo-500 px-8 py-4 rounded-xl text-lg transition-all duration-300 shadow-lg hover:shadow-indigo-500/25 border border-indigo-500/20 hover:border-indigo-400/50 transform hover:-translate-y-0.5 font-medium"
 				>
 					Documentation
 				</a>
 				<a
 					href="https://estatechainsol.github.io/estatechain.platform"
 					target="_blank"
-					class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg text-lg transition-colors"
+					class="bg-blue-600 hover:bg-blue-500 px-8 py-4 rounded-xl text-lg transition-all duration-300 shadow-lg hover:shadow-blue-500/25 border border-blue-500/20 hover:border-blue-400/50 transform hover:-translate-y-0.5 font-medium"
 				>
 					View Demo
 				</a>
@@ -183,15 +185,17 @@
 				<a
 					href="https://estatechainsol.github.io/estatechain.platform"
 					target="_blank"
-					class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg text-lg transition-colors"
+					class="bg-blue-600 hover:bg-blue-500 px-8 py-4 rounded-xl text-lg transition-all duration-300 shadow-lg hover:shadow-blue-500/25 border border-blue-500/20 hover:border-blue-400/50 transform hover:-translate-y-0.5 font-medium group"
 				>
 					View Demo
+					<span class="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
 				</a>
 				<a
 					href="https://estatechainsol.github.io/estatechain.docs"
-					class="bg-indigo-600 hover:bg-indigo-700 px-8 py-4 rounded-lg text-lg transition-colors"
+					class="bg-indigo-600 hover:bg-indigo-500 px-8 py-4 rounded-xl text-lg transition-all duration-300 shadow-lg hover:shadow-indigo-500/25 border border-indigo-500/20 hover:border-indigo-400/50 transform hover:-translate-y-0.5 font-medium group"
 				>
 					Documentation
+					<span class="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
 				</a>
 			</div>
 		</div>
